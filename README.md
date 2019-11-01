@@ -1,4 +1,4 @@
-# hadoop-atp-final
+# Hadoop ATP Final Example
 Example project for running hadoop in a docker container
 
 ### Video Tutorial
@@ -8,10 +8,8 @@ https://www.youtube.com/watch?v=mRSWcVrtWj0
 https://www.kaggle.com/robseidl/tennis-atp-tour-australian-open-final-2019
 
 ### Setup
-####Run hadoop in docker: 
-`
-docker run -it -p 50070:50070 -p 8088:8088 -p 50075:50075 sequenceiq/hadoop-docker:2.7.0 /etc/bootstrap.sh -bash
-`
+#### Run hadoop in docker: 
+`docker run -it -p 50070:50070 -p 8088:8088 -p 50075:50075 sequenceiq/hadoop-docker:2.7.0 /etc/bootstrap.sh -bash`
 
 #### Access dashboard:
 [http://192.168.99.100:50070](http://192.168.99.100:50070)
